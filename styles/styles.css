@@ -108,6 +108,14 @@ body {
    flex: 1 0 auto;
 }
 
+.events {
+   box-sizing: border-box;
+   max-width: 1414px;
+   width: 100%;
+   padding-left: 40px;
+   padding-right: 40px;
+}
+
 .listing__events-card {
    display: flex;
    flex-wrap: wrap;
@@ -120,6 +128,7 @@ body {
    margin: 0 30px 120px;
    max-width: 405px;
    min-width: 280px;
+   width: calc(33,333% - 60px);
 }
 
 .events-card__link {
@@ -136,7 +145,7 @@ body {
 }
 
 .events-card__picture::before {
-   content: "";
+   content: '';
    display: block;
    padding-top: 107,16%;
    width: 100%;
