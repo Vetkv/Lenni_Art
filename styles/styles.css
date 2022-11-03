@@ -173,6 +173,40 @@ body {
 
 }
 
+.resrve {
+   display: grid;
+   width: 100%;
+   gap: 67px 150px;
+   grid-template-columns: 405px calc(89%-405px);
+   grid-template-areas: 
+   "checkbox scheme"
+   "order legend";
+}
+
+.resrve__checkbox {
+   grid-area: checkbox;
+   background-color: #ff0000;
+   height: 100px;
+}
+
+.resrve__scheme {
+   grid-area: scheme;
+   background-color: #fbff00;
+   height: 100px;
+}
+
+.resrve__order {
+   grid-area: order;
+   background-color: #09ff00;
+   height: 100px;
+}
+
+.resrve__legend {
+   grid-area: legend;
+   background-color: #2600ff;
+   height: 100px;
+}
+
 .footer {
    flex: 0 0 auto;
 }
